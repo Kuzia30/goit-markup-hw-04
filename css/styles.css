@@ -6,6 +6,7 @@
   --logo-black-color: #000000;
   --section-grey-color: #f5f4fa;
   --footer-color: #2f303a;
+  --icons-grey-color: #afb1b8;
   --main-font: Roboto, sans-serif;
   --secondary-font: Raleway, sans-serif;
 }
@@ -345,6 +346,8 @@ img {
 }
 
 .team-list-item-text {
+  margin-bottom: 16px;
+
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -352,7 +355,88 @@ img {
 
   color: var(--primary-text-color);
 }
+
+.team-social-list {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.team-social-item {
+}
+
+.team-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--icons-grey-color);
+}
+
+.team-link-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.team-social-link:focus,
+.team-social-link:hover {
+  background-color: var(--accent-color);
+  fill: var(--primary-white-color);
+}
+
 /* ==============team================== */
+
+/* ==============clients================= */
+.clients-title {
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+
+.clients-list {
+  display: flex;
+  margin-right: -30px;
+}
+
+.clients-item {
+  margin-right: 30px;
+}
+
+.clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--icons-grey-color);
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  fill: var(--icons-grey-color);
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.clients-icon {
+  width: 106px;
+  height: 60px;
+}
+
+/* ==============clients================= */
 
 /* ==============footer================== */
 .footer {
