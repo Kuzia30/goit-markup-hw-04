@@ -132,8 +132,24 @@ img {
   margin-right: 50px;
 }
 
+.icon-mail {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.icon-tel {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 .contacts-item-mail,
 .contacts-item-tel {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -145,6 +161,7 @@ img {
 .link-hover-focus:focus,
 .link-hover-focus:hover {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 /* ==============header================== */
 
